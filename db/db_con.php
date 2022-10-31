@@ -1,10 +1,10 @@
 <?php 
     // Development connection
-    $host = '127.0.0.1';
-    $db = 'attendance_db';
-    $user = 'root';
-    $password = '';
-    $charset = 'utf8mb4';
+   // $host = '127.0.0.1';
+   // $db = 'attendance_db';
+   // $user = 'root';
+   // $password = '';
+    //$charset = 'utf8mb4';
     
     // Remote development connection
     //$host = 'remotemysql.com';
