@@ -1,8 +1,8 @@
 <?php 
-    // Development connection
+    // Development connectio
    // $host = '127.0.0.1';
    // $db = 'attendance_db';
-   // $user = 'root';
+    //$user = 'root';
    // $password = '';
     //$charset = 'utf8mb4';
     
@@ -13,12 +13,12 @@
     //$password = 'A23zJM3VyF';
 
     //Azure connection string
-    // $host='applied-web.mysql.database.azure.com';
-    // $db = 'appliedweb_user@applied-web';
-    // $user='appliedweb_user@applied-web';
-    // $password='P@ssword1';
+     $host='applied-web.mysql.database.azure.com';
+     $db = 'appliedweb_user@applied-web';
+     $user='appliedweb_user@applied-web';
+     $password='P@ssword1';
 
-    //$charset = 'utf8mb4';
+    $charset = 'utf8mb4';
 
     
     $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
