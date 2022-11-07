@@ -14,7 +14,7 @@
 
     //Azure connection string
      $host= "applied-web.mysql.database.azure.com";
-     $db = "attendance_db";
+     $db = "attendance_shari";
      $user= "appliedweb_user@applied-web";
      $password= "P@ssword1";
 
