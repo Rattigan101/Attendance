@@ -48,7 +48,7 @@
         <div class="custom-file">
             <input type="file" accept="image/*" class="custom-file-input" id="avatar" name="avatar" >
             <label class="custom-file-label" for="avatar">Choose File Image</label>
-            <small id="avatar" class="form-text text-danger">File Upload is Optional</small>  
+            <small id="avatar" class="form-text text-danger">Optional</small>  
         </div>   
         <br/>   
         <br/>
