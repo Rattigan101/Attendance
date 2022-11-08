@@ -30,7 +30,7 @@
                 return false;
             }
         }
-        public function editAttendee($id, $fname, $lname, $dob, $email, $contact, $specialty){
+        public function editAttendee($id, $fname, $lname, $dob, $email, $contact, $specialty,$avatar_path){
             try{
                 $sql = "UPDATE `attendee` SET `firstname`=:fname,`lastname`=:lname,
                 `dateofbirth`=:dob,`emailaddress`=:email,`contactnumber`=:contact,`specialty_id`=:specialty WHERE 
@@ -44,6 +44,7 @@
                 $stmt->bindparam(':email', $email);
                 $stmt->bindparam(':contact', $contact);
                 $stmt->bindparam(':specialty', $specialty);
+                $stmt->bindparam(':avatar_path',$avatar_path);
                 // execute statement
                 $stmt->execute();
                 return true;
