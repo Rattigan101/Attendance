@@ -3,8 +3,7 @@
 
     class SendEmail{
         public static function SendMail($to, $subject, $content){
-            $key = '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';
-            //$url = 'https://api.elasticemail.com/v2/email/send';
+
 
             $email = new \sendgrid\Mail\Mail();
             //'apikey' => $key,
